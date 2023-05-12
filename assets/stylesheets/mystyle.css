@@ -1,0 +1,477 @@
+
+
+
+.visiblediv
+{
+    visibility:visible;
+}
+.hidden
+{
+    display:none;
+}
+#loading-div-background
+{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    background:#ffffff;
+    width:100%;
+    height:100%;
+    z-index:1000;
+}
+
+#loading-div
+{
+    width: 300px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align:center;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-150px;
+    margin-top: -100px;
+    z-index:1001;
+}
+
+#loading-div h2
+{
+    font-family:Arial,Tahoma, Helvetica;
+    text-decoration:none;
+}
+
+
+
+
+#triggerGoogleMapModal {
+    display: none;
+}
+.modal #googleMapModalTitle {
+    text-align: center;
+}
+
+.modal #googleMapContainer {
+    height: 370px;
+    width: 566px;
+}
+#linkContainer {
+    text-align: center;
+}
+#showGoogleMapModal {
+    margin: 100px auto;
+}
+
+div.container {
+    display: table-cell;
+    width: 400px;
+    height: 400px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.inner {
+    display: inline-block;
+    border: 1px solid #001111;
+    width: 380px;
+    height: 380px;
+    text-align: center;
+}
+
+
+td.monthlist {
+    display: table-cell;
+    width: 66px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+td.agendaday2{
+    background:#d9edf7;
+    border:1px solid #000;
+    width: 166px;
+    text-align: center;padding:5px;
+}
+
+td.agendatext2{
+    width:800px;
+    padding:5px;
+}
+td.agendaday{
+    background:#d9edf7;
+    border:1px solid #000;
+    width: 66px;
+    text-align: center;padding:5px;
+}
+
+td.agendatext{
+    width:900px;
+    padding:5px;
+}
+
+td.cal{
+    width:90px;
+    padding:4px;
+    text-align:center;
+    background:#ffffff)
+
+    }
+
+td.caldate{
+    width:90px;
+    padding:4px;
+    text-align:center;
+}
+
+td.calon{
+    width:90px;padding:4px;
+    text-align:center;color:#000;
+    background:#FF7F50;
+    color:#000;
+    box-shadow: 0px 0px 10px #a0ca76;
+    -webkit-box-shadow: 0px 0px 10px #a0ca76;
+    -moz-box-shadow: 0px 0px 10px #a0ca76;
+
+}
+td.calon a{
+    color:#000;
+}
+
+td.calmenutab
+{
+
+    width:90px;
+    border: 1px solid #000;
+    text-align:center;
+    vertical-align: top
+}
+
+
+td.calmenunav{
+
+    width:90px;
+    border: 0px solid #d9edf7;
+    font-size: 2EM;
+    text-align:center;
+
+
+}
+td.caldateon{
+    width:90px;padding:4px; text-align:center;color:#000;
+}
+
+div.calcell {
+    display: table-cell;
+    width: 90px;
+    height: 40px;
+    vertical-align: top;
+    text-align: center;
+}
+
+div.calcellinner {
+    display: inline-block;
+    border: 1px solid #001111;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.calsmall {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #B75F48;
+    text-decoration: none;
+}
+
+.calsmall:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #C3D7F5;
+    text-decoration: none;
+}
+
+.calsmallgrey {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.calbig {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.calbig:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+
+
+.majesty {  font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #C6D9F6;
+    border: 2px #999999 double}
+
+
+
+.Basicheader {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #DCCE88;
+    text-align: right;
+
+}
+
+
+
+
+.borderdotted {border: 2px dotted #000000;}
+
+.bordersolid {border: 2px solid #AFF5C3;}
+
+
+.linkclass a {  font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: thin #333333 double;
+
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    letter-spacing: normal;
+    vertical-align: baseline;
+    word-spacing: normal}
+
+.linkclass a:active {
+    color: #3333ee;
+}
+
+.linkclass a:hover {
+    color: #0099FF;
+}
+
+
+
+.optionYellow{
+    background-color:#0099FF;
+    color: #000000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold}
+
+.optionRed{
+    background-color:#666666;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif}
+
+.optionGreen{
+    background-color:#336633;}
+
+.buttontext {  font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    background-color: #ECECFF;
+    text-align: center;
+    height:25px;
+    border: thin #333333 double;
+
+    padding-top: 2px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px}
+
+
+
+
+.buttontext:hover {  font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: Darkblue;
+    text-decoration: none;
+}
+
+
+
+
+.MyButton { font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:8pt;
+    color:Darkblue;
+    font-weight: bold;
+    background-color:#FFFFFF;
+    border-style: solid;
+    border-color: #000000;
+}
+
+
+.Basictext8  { font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.Basictext10  { font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+.Basictext12  { font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.Basictext14  { font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.theme-default #main-navbar .navbar-header {
+    background: #fff !important;
+}
+
+.funkyradio div {
+  clear: both;
+  overflow: hidden;
+}
+
+.funkyradio label {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #D1D3D4;
+  font-weight: normal;
+}
+
+.funkyradio input[type="radio"]:empty,
+.funkyradio input[type="checkbox"]:empty {
+  display: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label,
+.funkyradio input[type="checkbox"]:empty ~ label {
+  position: relative;
+  line-height: 2.5em;
+  text-indent: 3.25em;
+  margin-top: 2em;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label:before,
+.funkyradio input[type="checkbox"]:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 2.5em;
+  background: #D1D3D4;
+  border-radius: 3px 0 0 3px;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+  color: #888;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #C2C2C2;
+}
+
+.funkyradio input[type="radio"]:checked ~ label,
+.funkyradio input[type="checkbox"]:checked ~ label {
+  color: #777;
+}
+
+.funkyradio input[type="radio"]:checked ~ label:before,
+.funkyradio input[type="checkbox"]:checked ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #333;
+  background-color: #ccc;
+}
+
+.funkyradio input[type="radio"]:focus ~ label:before,
+.funkyradio input[type="checkbox"]:focus ~ label:before {
+  box-shadow: 0 0 0 3px #999;
+}
+
+.funkyradio-default input[type="radio"]:checked ~ label:before,
+.funkyradio-default input[type="checkbox"]:checked ~ label:before {
+  color: #333;
+  background-color: #ccc;
+}
+
+.funkyradio-primary input[type="radio"]:checked ~ label:before,
+.funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.funkyradio-success input[type="radio"]:checked ~ label:before,
+.funkyradio-success input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #5cb85c;
+}
+
+.funkyradio-danger input[type="radio"]:checked ~ label:before,
+.funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #d9534f;
+}
+
+.funkyradio-warning input[type="radio"]:checked ~ label:before,
+.funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #f0ad4e;
+}
+
+.funkyradio-info input[type="radio"]:checked ~ label:before,
+.funkyradio-info input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #5bc0de;
+}
+
