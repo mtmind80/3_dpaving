@@ -42,7 +42,7 @@ $config['states'] = "<option value='FL'>Florida</option>";
 // capture errors and email them to admin: (by errorHandle function in EX_Controller)
 $config['sendError'] = false;
 // email address to send the error:
-$config['emailErrorTo'] = 'herbtrevathan@gmail.com';
+$config['emailErrorTo'] = 'mike.trachtenberg@gmail.com';
 
 // send 404 error
 $config['send404Error'] = false;
@@ -77,4 +77,4 @@ $config['isPasswordEncrypted'] = false;
 $config['idleTime'] = 0;  //1000 * 60 * 15;  // 15 min
 
 // show workbench info:
-$config['enableProfiler'] = false;
+$config['enableProfiler'] = true;
